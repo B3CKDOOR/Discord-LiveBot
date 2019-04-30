@@ -5,6 +5,11 @@
     <title></title>
     <script src="js/app.js" charset="utf-8"></script>
     <link rel="stylesheet" href="css/master.css">
+	<script>
+  if (global === undefined) {
+    var global = window;
+  }
+</script>
   </head>
   <body onload='create()'>
     <div id='electron-titlebar'>
