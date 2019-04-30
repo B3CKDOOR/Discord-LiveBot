@@ -8,21 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PlayBy/Discord-LiveBot.git"
+    "url": "git+https://github.com/B3CKDOOR/Discord-LiveBot.git"
   },
   "keywords": [
     "discord",
     "livebot",
     "discord-livebot"
   ],
-  "author": "SharkFin",
+  "author": "B3CKDOOR",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/PlayBy/Discord-LiveBot/issues"
+    "url": "https://github.com/B3CKDOOR/Discord-LiveBot/issues"
   },
-  "homepage": "https://github.com/PlayBy/Discord-LiveBot#readme",
+  "homepage": "https://github.com/B3CKDOOR/Discord-LiveBot#readme",
   "devDependencies": {
-    "discord.js": "github:hydrabolt/discord.js#11.3-dev"
+    "discord.js": "github:hydrabolt/discord.js#11.4-dev"
   },
   "dependencies": {
     "electron-titlebar": "0.0.3"
