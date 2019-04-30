@@ -7,8 +7,14 @@ const pack = require('./package.json');
 let win;
 
 function createWindow() {
-  win = new BrowserWindow({width: 1200, height: 650, frame: true});
-
+  win  = new BrowserWindow({
+width:1200,
+height:650,
+frame:true,
+webPreferences: {
+nodeIntegration:true
+}
+});
   win.loadURL(url.format({
     pathname: path.join(__dirname, 'index.html'),
     protocol: 'file:',
