@@ -1,7 +1,7 @@
 # Discord-LiveBot
 # Just trying to get it working, not adding features
-# YOU ARE NOT ALLOWED TO RUN USER ACCOUNTS WITH THIS APP, BOTS ARE OKAY
-An app that allows you to be inside a bot!
+# YOU ARE NOT ALLOWED TO RUN USER ACCOUNTS WITH THIS APP
+An app that allows you to see / act like an discord bot
 
 At the moment, livebot is still in extreme beta. To run it, open a terminal window in the main directory, then type `npm test`.
 
