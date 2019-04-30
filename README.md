@@ -1,4 +1,5 @@
 # Discord-LiveBot
+# Just trying to get it working, not adding features
 # LIVEBOT IS NOW AGAINST TOS, AS IT IS NOT AN OFFICIAL CLIENT. YOU ARE NOT ALLOWED TO RUN USER ACCOUNTS WITH THIS APP, BUT BOTS SHOULD STILL BE OKAY
 An app that allows you to be inside a bot!
 
