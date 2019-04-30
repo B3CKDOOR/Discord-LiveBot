@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/B3CKDOOR/Discord-LiveBot#readme",
   "devDependencies": {
-    "discord.js": "github:hydrabolt/discord.js#11.4-dev"
+    "discord.js": "github:discordjs/discord.js#11.4-dev",
+    "electron": "^5.0.0"
   },
   "dependencies": {
     "electron-titlebar": "0.0.3"
