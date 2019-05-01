@@ -1,9 +1,9 @@
 ---
 name: Bug report
 about: You found an bug? let us know!
-title: 'Bug report'
-labels: ''
-assignees: 'B3CKDOOR'
+title: Bug report
+labels: bug
+assignees: B3CKDOOR
 
 ---
 
