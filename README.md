@@ -1,19 +1,20 @@
 # Discord-LiveBot
-# Just trying to get it working, not adding features
-# YOU ARE NOT ALLOWED TO RUN USER ACCOUNTS WITH THIS APP
 An app that allows you to see / act like an discord bot
 
-At the moment, livebot is still in extreme beta. To run it, open a terminal window in the main directory, then type `npm test`.
+# YOU ARE NOT ALLOWED TO RUN USER ACCOUNTS WITH THIS APP, ITS AGAINST TOS
+## You have been warned
+
+At the moment, livebot is still in **UNSTABLE beta**. To run it, open a terminal window in the main directory, then type `npm start`.
 
 <img src='https://i.imgur.com/rRcAOBj.png' height='300px' style='border-radius: 10px;'/>
 
 ## What is this?
-Livebot is a program built with electron and discord.js, that will allow you to have discord controlling a bot. You are able to view messages in channels, send messages, interact with people, and see what is going on in the servers your bot is in. Livebot will also work with a user account as well, so you are not just limited to bots.
+Livebot is a program built with electron and discord.js, that will allow you to control an discord bot. You are able to view messages in channels, send messages, interact with people, and see what is going on in the servers your bot is in.
 
-Livebot had been built to copy discord, and while it is not exact, it is pretty close. More additions will come soon, so just be patient, but feel free to recommend any addition!
+Livebot had been built to look like discord, and while it is not exact, it is pretty close.
 
 ## How to install
-To install livebot, just download as a zip file, which you can do by pressing the green button above. Once you have downloaded and extracted the zip file, go into the directory with a command prompt or shell window. In the shell window, enter the commands `npm install`. Make sure that the terminal window is running as administrator. If this does not work, then just run `npm install electron`. Then to start it, run `npm test`.
+To install livebot, just download as a zip file, which you can do by pressing the green button above. Once you have downloaded and extracted the zip file, go into the directory with a command prompt or shell window. In the shell window, enter the commands `npm install`. Make sure that the terminal window is running as administrator. Then to start it, run `npm start`.
 
 ## Some features.
 ### Animated guild indicator
@@ -31,7 +32,7 @@ Barry is the livebot version of discord's Clyde. Except Barry has some fun comma
 <img src='https://i.imgur.com/PGInuit.png' style='border-radius: 10px;'>
 
 ### Profile card.
-The profile card is able to tell you the username, the avatar image, the discriminator, and something discord does not have. The profile card will tell you if the account you are signed into is a bot or a user. This can be handy if you are not quite sure. <br>
+The profile card is able to tell you the username, the avatar image, the discriminator, and something discord does not have. The profile card will tell you of the account you are signed into. This can be handy if you are not quite sure. <br>
 <img src='https://i.imgur.com/CXWnkQl.png' style='border-radius: 10px;'>
 <img src='https://i.imgur.com/EZH16A7.png' style='border-radius: 10px;'>
 
