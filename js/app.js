@@ -508,7 +508,8 @@ let helpMsg = [
   '/tableflip - Prepends (╯°□°）╯︵ ┻━┻ to your message.',
   '/ping - Check the hearbeat to discord.',
   '/server - Get some info about the server.',
-  '/eval - Execute a command.'
+  //'/eval - Execute a command.',
+  //'/msg - Send message as is, for controlling bots'
 ].join('\n')
 
 // Commands
@@ -517,9 +518,9 @@ function sendmsg() {
   if (selectedChan) {
     let text = document.getElementById('msgbox').value;
     if (text.substring(0,1) == '/') {
-      let cmd = text.split(' ')[0].substring(1);
+      let eval = text.split(' ')[0].substring(1);
       let msg = text.split(' ').splice(1).join(' ')
-      switch (cmd) {
+      switch (eval) {
         case 'help':
           command(helpMsg);
         break;
@@ -550,14 +551,18 @@ function sendmsg() {
           command(serverinfo);
         break;
 
-        case 'eval':
-          try {
-            command(`📥 Eval \n ${msg} \n\n 📤 Output \n ${eval(msg)}`);
-          } catch (err) {
-            command(`📥 Eval \n ${msg} \n\n 📤 Output \n ${err}`);
-          }
-          document.getElementById('msgbox').value = '';
-        break;
+        //case 'eval':
+        //  try {
+        //    command(`📥 eval \n ${msg} \n\n 📤 Output \n ${eval(msg)}`);
+        //  } catch (err) {
+        //    command(`📥 eval \n ${msg} \n\n 📤 Output \n ${err}`);
+        //  }
+        //  document.getElementById('msgbox').value = '';
+        //break;
+		
+		//case 'msg':
+        //  command(+selectedChan.guild.members.filter(member => !member.user.bot).size);
+        //break;
       }
     } else {
       selectedChan.send(text);
