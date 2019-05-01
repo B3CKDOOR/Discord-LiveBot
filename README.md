@@ -1,13 +1,13 @@
 # Discord-LiveBot
 An app that allows you to see / act like an discord bot
 
-**Originally Developed By PlayBy, Fixed / Updated by B3CKDOOR**
+**Originally Developed By [PlayBy](https://github.com/PlayBy "Playby's Page"), Fixed / Updated by [B3CKDOOR](https://github.com/B3CKDOOR "B3CKDOOR's Page")**
 
 # YOU ARE NOT ALLOWED TO RUN USER ACCOUNTS WITH THIS APP, ITS AGAINST TOS
 
 ### NOTE: The assets in this project belong to their rightfull owners.
 
-At the moment, livebot is still in **UNSTABLE beta**. To run it, open a terminal window in the main directory, then type `npm start`.
+At the moment, livebot is still in **UNSTABLE BETA**. To run it, open a terminal window in the main directory, then type `npm start`.
 
 <img src='https://i.imgur.com/rRcAOBj.png' height='300px' style='border-radius: 10px;'/>
 
