@@ -1,10 +1,9 @@
 # Discord-LiveBot
 An app that allows you to see / act like an discord bot
 
-# YOU ARE NOT ALLOWED TO RUN USER ACCOUNTS WITH THIS APP, ITS AGAINST TOS
-## You have been warned
-
 **Originally Developed By PlayBy, Fixed / Updated by B3CKDOOR**
+
+# YOU ARE NOT ALLOWED TO RUN USER ACCOUNTS WITH THIS APP, ITS AGAINST TOS
 
 ### NOTE: The assets in this project belong to their rightfull owners.
 
